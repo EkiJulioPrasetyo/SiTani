@@ -17,8 +17,8 @@
       <li class="cursor-pointer">Tentang</li>
     </ul>
     <div class="flex gap-4 items-center">
-      <a href="#" class="text-green-700 font-medium">Masuk</a>
-      <a href="#" class="bg-green-700 text-white px-4 py-2 rounded-md font-semibold hover:bg-green-900">Daftar</a>
+      <a href="#" class="text-lime-700 font-medium">Masuk</a>
+      <a href="#" class="bg-lime-700 text-white px-4 py-2 rounded-md font-semibold hover:bg-green-900">Daftar</a>
     </div>
   </nav>
 
@@ -26,7 +26,7 @@
     <div class="bg-black bg-opacity-10 p-10 rounded-lg max-w-xl">
       <h1 class="text-4xl font-bold mb-4">Selamat datang di <span class="text-red-500">SiTani!</span></h1>
       <p class="mb-6 leading-relaxed">Platform web yang memudahkan petani dan pengguna dalam jual beli hasil pertanian, khususnya tanaman cabe jamu.</p>
-      <a href="#" class="bg-green-700 px-4 py-2 rounded-md font-semibold hover:bg-green-900">Daftar</a>
+      <a href="#" class="bg-lime-700 px-4 py-2 rounded-md font-semibold hover:bg-green-900">Daftar</a>
     </div>
   </section>
 
@@ -74,7 +74,7 @@
         <div class="p-4">
           <h3 class="font-semibold text-green-900 mb-2">Apa Itu Cabe Jamu?</h3>
           <p class="text-green-800 text-sm">Cabe jamu (Piper retrofractum Vahl.) adalah tanaman obat dari suku Piperaceae...</p>
-          <a href="#" class="text-green-700 font-bold inline-block mt-3">Baca selengkapnya →</a>
+          <a href="#" class="text-lime-700 font-bold inline-block mt-3">Baca selengkapnya →</a>
         </div>
       </div>
       <div class="max-w-xs bg-white shadow-md rounded-lg overflow-hidden text-left">
@@ -82,7 +82,7 @@
         <div class="p-4">
           <h3 class="font-semibold text-green-900 mb-2">Tanam Sendiri, Gak Susah Kok!</h3>
           <p class="text-green-800 text-sm">Mau coba budidaya cabe jamu? Tenang, SiTani pandu langkah demi langkah.</p>
-          <a href="#" class="text-green-700 font-bold inline-block mt-3">Baca selengkapnya →</a>
+          <a href="#" class="text-lime-700 font-bold inline-block mt-3">Baca selengkapnya →</a>
         </div>
       </div>
       <div class="max-w-xs bg-white shadow-md rounded-lg overflow-hidden text-left">
@@ -90,7 +90,7 @@
         <div class="p-4">
           <h3 class="font-semibold text-green-900 mb-2">Kenali Hama & Penyakitnya</h3>
           <p class="text-green-800 text-sm">Kami bantu kamu mengenali ciri-ciri penyakit tanaman dan solusinya.</p>
-          <a href="#" class="text-green-700 font-bold inline-block mt-3">Baca selengkapnya →</a>
+          <a href="#" class="text-lime-700 font-bold inline-block mt-3">Baca selengkapnya →</a>
         </div>
       </div>
     </div>
