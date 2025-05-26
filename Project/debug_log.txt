@@ -1,0 +1,613 @@
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download_1745302616.jpeg" 2>&1
+Output:
+Keriting
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\images_1745302661.jpeg" 2>&1
+Output:
+Bercak Daun
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\ca15310f591eb3d1a424af8441338051_1745302735.jpg" 2>&1
+Output:
+Sehat
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\images_1745302784.jpeg" 2>&1
+Output:
+Bercak Daun
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\antraknosa_1745302853.jpg" 2>&1
+Output:
+Bercak Daun
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\images37_1745302939.jpg" 2>&1
+Output:
+Antraknosa
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\images6_1745303123.jpg" 2>&1
+Output:
+Antraknosa
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\Cabaisehat045_1745303171.jpg" 2>&1
+Output:
+Sehat
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\yellowish131_1745303218.jpg" 2>&1
+Output:
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\SiTani\Project\predict.py", line 34, in <module>
+    predicted_label = labels[predicted_index]
+                      ~~~~~~^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\yellowisha14_1745303244.jpg" 2>&1
+Output:
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\SiTani\Project\predict.py", line 34, in <module>
+    predicted_label = labels[predicted_index]
+                      ~~~~~~^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\yellowish02_1745303603.jpg" 2>&1
+Output:
+Yellowish
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\yellowish24_1745303626.jpg" 2>&1
+Output:
+Yellowish
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download1_1745303673.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download5_1745303702.jpg" 2>&1
+Output:
+Leaf Curl
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download3_1745307513.jpg" 2>&1
+Output:
+Leaf Curl
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\Cabaisehat001_1745307554.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\Cabaisehat001_1745308461.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download5_1745308535.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download5_1745308797.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download1_1745309007.jpg" 2>&1
+Output:
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\SiTani\Project\predict.py", line 19, in <module>
+    model = load_model("model_cnn_tanaman.keras")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_api.py", line 187, in load_model
+    return saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_lib.py", line 365, in load_model
+    return _load_model_from_fileobj(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_lib.py", line 507, in _load_model_from_fileobj
+    _raise_loading_failure(error_msgs)
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_lib.py", line 593, in _raise_loading_failure
+    raise ValueError(msg)
+ValueError: A total of 2 objects could not be loaded. Example error message for object <Dense name=dense_2, built=True>:
+
+Unable to allocate 42.2 MiB for an array with shape (86528, 128) and data type float32
+
+List of objects that could not be loaded:
+[<Dense name=dense_2, built=True>, <keras.src.optimizers.adam.Adam object at 0x00000288DD5640B0>]
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download1_1745309008.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\images-2021-05-19T012559841_1745309078.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download5_1745310406.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download5_1745310478.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download7_1745310562.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download1_1745312044.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download1_1745312593.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\whiteflya11_1745313309.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download11_1745319197.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\Cabaisehat002_1745320259.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download5_1745320296.jpg" 2>&1
+Output:
+Leaf Curl
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download5_1745320332.jpg" 2>&1
+Output:
+Leaf Curl
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\images52_1745320343.jpg" 2>&1
+Output:
+Leaf Curl
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\images52_1745320352.jpg" 2>&1
+Output:
+Leaf Curl
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\images52_1745320360.jpg" 2>&1
+Output:
+Leaf Curl
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\images52_1745320368.jpg" 2>&1
+Output:
+Leaf Curl
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\leafspot071_1745320414.jpg" 2>&1
+Output:
+Leaf Spot
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download1_1745320443.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\yellowisha18_1745320485.jpg" 2>&1
+Output:
+Yellowish
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\bercakdaun_1745599997.jpeg" 2>&1
+Output:
+Leaf Spot
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\Cabaisehat045_1745600251.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\bercakdaun_1745600328.jpeg" 2>&1
+Output:
+Leaf Spot
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\bercakdaun_1745600653.jpeg" 2>&1
+Output:
+Leaf Spot
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\bercakdaun_1747272121.jpeg" 2>&1
+Output:
+Leaf Spot
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\bercakdaun_1747272432.jpeg" 2>&1
+Output:
+Leaf Spot
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\cabaikuning_1747272461.jpg" 2>&1
+Output:
+Yellowish
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download19_1747838132.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download19_1747838528.jpg" 2>&1
+Output:
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\SiTani\Project\predict.py", line 19, in <module>
+    model = load_model("model_cnn_tanaman.keras")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_api.py", line 187, in load_model
+    return saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_lib.py", line 365, in load_model
+    return _load_model_from_fileobj(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_lib.py", line 507, in _load_model_from_fileobj
+    _raise_loading_failure(error_msgs)
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_lib.py", line 593, in _raise_loading_failure
+    raise ValueError(msg)
+ValueError: A total of 1 objects could not be loaded. Example error message for object <keras.src.optimizers.adam.Adam object at 0x000001BD58DE1DC0>:
+
+Unable to allocate 42.2 MiB for an array with shape (86528, 128) and data type float32
+
+List of objects that could not be loaded:
+[<keras.src.optimizers.adam.Adam object at 0x000001BD58DE1DC0>]
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\bercakdaun_1747902351.jpeg" 2>&1
+Output:
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\SiTani\Project\predict.py", line 8, in <module>
+    import tensorflow as tf
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\__init__.py", line 53, in <module>
+    from tensorflow._api.v2 import compat
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat import v1
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\__init__.py", line 30, in <module>
+    from tensorflow._api.v2.compat.v1 import compat
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\compat\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat.v1.compat import v1
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\compat\v1\__init__.py", line 33, in <module>
+    from tensorflow._api.v2.compat.v1 import debugging
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\debugging\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat.v1.debugging import experimental
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\debugging\experimental\__init__.py", line 8, in <module>
+    from tensorflow.python.debug.lib.dumping_callback import disable_dump_debug_info # line: 863
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\python\debug\__init__.py", line 62, in <module>
+    from tensorflow.python.debug.wrappers.hooks import DumpingDebugHook
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\python\debug\wrappers\hooks.py", line 22, in <module>
+    from tensorflow.python.debug.wrappers import local_cli_wrapper
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\python\debug\wrappers\local_cli_wrapper.py", line 21, in <module>
+    from tensorflow.python.debug.cli import analyzer_cli
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\python\debug\cli\analyzer_cli.py", line 32, in <module>
+    from tensorflow.python.debug.lib import source_utils
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\python\debug\lib\source_utils.py", line 25, in <module>
+    from tensorflow.python.debug.lib import profiling
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1096, in get_code
+  File "<frozen importlib._bootstrap_external>", line 691, in _classify_pyc
+MemoryError
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747902409.jpg" 2>&1
+Output:
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\SiTani\Project\predict.py", line 8, in <module>
+    import tensorflow as tf
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\__init__.py", line 53, in <module>
+    from tensorflow._api.v2 import compat
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat import v1
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\__init__.py", line 30, in <module>
+    from tensorflow._api.v2.compat.v1 import compat
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\compat\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat.v1.compat import v1
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\compat\v1\__init__.py", line 47, in <module>
+    from tensorflow._api.v2.compat.v1 import lite
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\lite\__init__.py", line 9, in <module>
+    from tensorflow._api.v2.compat.v1.lite import experimental
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\lite\experimental\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat.v1.lite.experimental import authoring
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\lite\experimental\authoring\__init__.py", line 8, in <module>
+    from tensorflow.lite.python.authoring.authoring import compatible # line: 265
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\lite\python\authoring\authoring.py", line 43, in <module>
+    from tensorflow.lite.python import convert
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\lite\python\convert.py", line 27, in <module>
+    from tensorflow.compiler.mlir.lite.python import wrap_converter
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\compiler\mlir\lite\python\wrap_converter.py", line 20, in <module>
+    from tensorflow.compiler.mlir.quantization.tensorflow.python import py_function_lib
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\compiler\mlir\quantization\tensorflow\python\py_function_lib.py", line 25, in <module>
+    from tensorflow.compiler.mlir.quantization.tensorflow import exported_model_pb2
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\compiler\mlir\quantization\tensorflow\exported_model_pb2.py", line 22, in <module>
+    _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'tensorflow.compiler.mlir.quantization.tensorflow.exported_model_pb2', globals())
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\google\protobuf\internal\builder.py", line 86, in BuildTopDescriptorsAndMessages
+    module[name] = BuildMessage(msg_des)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\google\protobuf\internal\builder.py", line 60, in BuildMessage
+    create_dict[name] = BuildMessage(nested_msg)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+MemoryError
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747902451.jpg" 2>&1
+Output:
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\SiTani\Project\predict.py", line 8, in <module>
+    import tensorflow as tf
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\__init__.py", line 53, in <module>
+    from tensorflow._api.v2 import compat
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat import v1
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\__init__.py", line 30, in <module>
+    from tensorflow._api.v2.compat.v1 import compat
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\compat\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat.v1.compat import v1
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\compat\v1\__init__.py", line 47, in <module>
+    from tensorflow._api.v2.compat.v1 import lite
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\lite\__init__.py", line 9, in <module>
+    from tensorflow._api.v2.compat.v1.lite import experimental
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\lite\experimental\__init__.py", line 9, in <module>
+    from tensorflow.lite.python.analyzer import ModelAnalyzer as Analyzer # line: 35
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\lite\python\analyzer.py", line 24, in <module>
+    from tensorflow.lite.python.analyzer_wrapper import _pywrap_analyzer_wrapper as _analyzer_wrapper
+ImportError: DLL load failed while importing _pywrap_analyzer_wrapper: The paging file is too small for this operation to complete.
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747902474.jpg" 2>&1
+Output:
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\SiTani\Project\predict.py", line 8, in <module>
+    import tensorflow as tf
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\__init__.py", line 53, in <module>
+    from tensorflow._api.v2 import compat
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat import v1
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\__init__.py", line 30, in <module>
+    from tensorflow._api.v2.compat.v1 import compat
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\compat\__init__.py", line 9, in <module>
+    from tensorflow._api.v2.compat.v1.compat import v2
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v1\compat\v2\__init__.py", line 25, in <module>
+    from tensorflow._api.v2.compat.v2 import __internal__
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v2\__init__.py", line 31, in <module>
+    from tensorflow._api.v2.compat.v2 import compat
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v2\compat\__init__.py", line 9, in <module>
+    from tensorflow._api.v2.compat.v2.compat import v2
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v2\compat\v2\__init__.py", line 35, in <module>
+    from tensorflow._api.v2.compat.v2 import distribute
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v2\distribute\__init__.py", line 10, in <module>
+    from tensorflow._api.v2.compat.v2.distribute import experimental
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v2\distribute\experimental\__init__.py", line 10, in <module>
+    from tensorflow._api.v2.compat.v2.distribute.experimental import rpc
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\_api\v2\compat\v2\distribute\experimental\rpc\__init__.py", line 8, in <module>
+    from tensorflow.python.distribute.experimental.rpc.rpc_ops import Client # line: 117
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\python\distribute\experimental\__init__.py", line 19, in <module>
+    from tensorflow.python.distribute.experimental import multi_worker_mirrored_strategy
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\python\distribute\experimental\multi_worker_mirrored_strategy.py", line 28, in <module>
+    from tensorflow.python.distribute.experimental import dtensor_strategy_extended
+  File "<frozen importlib._bootstrap>", line 471, in _lock_unlock_module
+  File "<frozen importlib._bootstrap>", line 311, in acquire
+MemoryError
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747902498.jpg" 2>&1
+Output:
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\SiTani\Project\predict.py", line 19, in <module>
+    model = load_model("model_cnn_tanaman.keras")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_api.py", line 187, in load_model
+    return saving_lib.load_model(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_lib.py", line 365, in load_model
+    return _load_model_from_fileobj(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_lib.py", line 442, in _load_model_from_fileobj
+    model = _model_from_config(
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\saving_lib.py", line 431, in _model_from_config
+    model = deserialize_keras_object(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\models\sequential.py", line 350, in from_config
+    layer = serialization_lib.deserialize_keras_object(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\saving\serialization_lib.py", line 730, in deserialize_keras_object
+    instance.build_from_config(build_config)
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\layers\layer.py", line 451, in build_from_config
+    self.build(config["input_shape"])
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\layers\layer.py", line 226, in build_wrapper
+    original_build_method(*args, **kwargs)
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\layers\core\dense.py", line 109, in build
+    self._kernel = self.add_weight(
+                   ^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\layers\layer.py", line 541, in add_weight
+    variable = backend.Variable(
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\backend\common\variables.py", line 163, in __init__
+    self._initialize_with_initializer(initializer)
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\backend\tensorflow\core.py", line 40, in _initialize_with_initializer
+    self._value = tf.Variable(
+                  ^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\tensorflow\python\util\traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\backend\tensorflow\core.py", line 41, in <lambda>
+    lambda: initializer(self._shape, dtype=self._dtype),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\initializers\random_initializers.py", line 294, in __call__
+    return random.uniform(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Eki julio\AppData\Roaming\Python\Python312\site-packages\keras\src\backend\tensorflow\random.py", line 34, in uniform
+    return tf.random.stateless_uniform(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:CPU:0}} OOM when allocating tensor with shape[86528,128] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator mklcpu [Op:StatelessRandomUniformV2] name: 
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747902695.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747902801.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747902880.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747903034.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747903120.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747903188.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747903266.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\PurpleCyberpunkCyberMondaySalePromotionInstagramStory9_1747903324.png" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\PurpleCyberpunkCyberMondaySalePromotionInstagramStory9_1747903349.png" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1747908607.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\PurpleCyberpunkCyberMondaySalePromotionInstagramStory9_1747908652.png" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\WhatsAppImage2025-05-08at100704_70a89d4c_1747908726.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\cabaikuning_1747908753.jpg" 2>&1
+Output:
+Yellowish
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\bercakdaun_1747909002.jpeg" 2>&1
+Output:
+Leaf Spot
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1748124113.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\sehat_1748124141.jpg" 2>&1
+Output:
+Healthy
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download19_1748124349.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download19_1748124366.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download19_1748124444.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download19_1748124461.jpg" 2>&1
+Output:
+White Fly
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\bercakdaun_1748124556.jpeg" 2>&1
+Output:
+Leaf Spot
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\bercakdaun_1748124574.jpeg" 2>&1
+Output:
+Leaf Spot
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\cabaikuning_1748124651.jpg" 2>&1
+Output:
+Yellowish
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\cabaikuning_1748124664.jpg" 2>&1
+Output:
+Yellowish
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download1_1748124766.jpg" 2>&1
+Output:
+Yellowish
+
+
+CMD: python predict.py "C:\xampp\htdocs\SiTani\Project\uploads\download1_1748124783.jpg" 2>&1
+Output:
+Yellowish
+
+
