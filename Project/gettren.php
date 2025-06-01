@@ -4,7 +4,6 @@ include 'koneksi.php';
 $penyakit = $_GET['penyakit'] ?? '';
 
 if ($penyakit) {
-    // 1) Hitung dari DeteksiPenyakit
     $stmt = $conn->prepare("
       SELECT COUNT(*) as jumlah 
       FROM DeteksiPenyakit 
@@ -14,7 +13,6 @@ if ($penyakit) {
     $stmt->execute();
     $jumlah = $stmt->get_result()->fetch_assoc()['jumlah'];
 
-    // 2) (Opsional) ambil periode terakhir dari TrenPenyakit
     $stmt2 = $conn->prepare("
       SELECT periode 
       FROM TrenPenyakit 

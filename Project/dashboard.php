@@ -82,6 +82,10 @@ $peran = $_SESSION['peran'];
           <h2 class="text-xl font-semibold">Tren Penyakit</h2>
           <p class="text-sm mt-2">Lihat tren penyakit periode ini.</p>
         </a>
+        <a href="notifikasi.php" class="block bg-lime-700 text-white p-6 rounded-xl shadow-md hover:bg-green-900 transition text-center">
+          <h2 class="text-xl font-semibold">Notifikasi</h2>
+          <p class="text-sm mt-2">Lihat Notifikasi.</p>
+        </a>
       <?php endif; ?>
     </div>
   </div>

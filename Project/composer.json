@@ -1,0 +1,15 @@
+{
+    "name": "ekijulio/project",
+    "autoload": {
+        "psr-4": {
+            "Ekijulio\\Project\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EkiJulioPrasetyo",
+            "email": "edijulio112@gmail.com"
+        }
+    ],
+    "require": {}
+}

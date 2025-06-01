@@ -28,3 +28,10 @@ CREATE TABLE if NOT EXISTS TrenPenyakit (
     periode VARCHAR(50) NOT NULL,
     tanggal_diperbarui DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE if NOT EXISTS Notifikasi (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pesan TEXT NOT NULL,
+    untuk_peran ENUM('admin', 'petani') NOT NULL,
+    tanggal_dibuat DATETIME DEFAULT CURRENT_TIMESTAMP
+);
